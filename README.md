@@ -1,5 +1,5 @@
 # StudentGrade-Iterator
-The program defines an interface Collections that extends the functionality to iterate through objects using generics. It includes a main method where a LinkedHashMap is used to store student names as keys and their corresponding scores as values.
+The program defines an interface Collections that extends the functionality to iterate through objects using generics and lambda expressions. It includes a main method where a LinkedHashMap is used to store student names as keys and their corresponding scores as values.
 
 Usage
 
@@ -13,6 +13,7 @@ Features
     Iterates over entries in a LinkedHashMap.
     Filters entries based on a specified condition.
     Maps the values to an ArrayList.
+    providing arguments to initilaize the use of lambda expressions
 
 
 
