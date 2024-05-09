@@ -15,9 +15,10 @@ Features
     Maps the values to an ArrayList.
 
 
-    Example Output
 
-    Iterating over entries:
+Example Output
+
+Iterating over entries:
 Smith: 98
 Alice: 87
 Jeremy: 77
