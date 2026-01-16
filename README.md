@@ -16,7 +16,7 @@ This project demonstrates a Java program for managing collections of student sco
 
 ## Overview
 
-The Collections interface extends Iterable<Object> and provides a method to iterate over objects. The main method demonstrates the usage of a LinkedHashMap to store student names and their respective scores. The program includes functionalities to:
+A Iteractions public class is created. The main method demonstrates the usage of a LinkedHashMap to store student names and their respective scores. The program includes functionalities to:
 
 - Iterate through all entries.
 - Filter and display passing scores (>= 75).
@@ -36,22 +36,22 @@ To run this project, you need to have Java installed on your system.
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/collections-project.git
+git clone https://github.com/yourusername/StudentGrade-Iterator.git
 ```
 
 2. Navigate to the project directory:
 ```
-cd collections-project
+cd StudentGradeIterator
 ```
 
 3. Compile the Java file:
 ```
-javac Collections.java
+javac Iteration.java
 ```
 
 4. Run the program:
 ```
-java Collections
+java Iterations.java
 ```
 
 ## Usage
