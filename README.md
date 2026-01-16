@@ -41,7 +41,7 @@ git clone https://github.com/yourusername/StudentGrade-Iterator.git
 
 2. Navigate to the project directory:
 ```
-cd StudentGradeIterator
+cd StudentGrade-Iterator
 ```
 
 3. Compile the Java file:
