@@ -5,17 +5,13 @@ import java.util.*; //using generic collections
  * created interface class Collections that 
  * extends the action to iterate through objects
  */
-public interface Collections extends Iterable <Object> {
-	
-	
-	@Override
-	Iterator <Object> iterator(); //creating the iterator object
-	
+public class Iterations {
 	
 	
 	public static void main(String[] args) { //Main body of execution	
 		
-		LinkedHashMap<String,Integer> HighestScore = new LinkedHashMap<>(); //Creating a empty hash table
+		LinkedHashMap<String,Integer> HighestScore = new LinkedHashMap<>(); //Creating a empty hash table for the highest scores
+
 		
 		
 		/**
@@ -27,16 +23,24 @@ public interface Collections extends Iterable <Object> {
 		HighestScore.put("Jeremy",77);
 		HighestScore.put("Trevor",44);
 		HighestScore.put("Steffany",34);
-		
+
+
+
+		// mapping for a parameter
+		ArrayList<String> students = new ArrayList<>();
+		HighestScore.forEach((student, score) -> students.add(student));
+		System.out.println("\nStudents: " +  students);
 		
 		/**
 		 * creation of the first parameter
 		 * iterates the values within the table
 		 */
+		System.out.println("Here are the list of students and their grades.\n");
 		System.out.println("Iterating over entries: ");
 		for(Map.Entry<String, Integer> entry : HighestScore.entrySet()) { //iterate through the entries
 			System.out.println(entry.getKey() + ": " + entry.getValue());
 		}
+
 		
 		System.out.println("\n");
 		/**
@@ -69,14 +73,6 @@ public interface Collections extends Iterable <Object> {
 				System.out.println(entry.getKey() + ": " + entry.getValue());
 			}
 		}
-		
-		/**
-		 * creation of the third parameter
-		 * Mapping the values
-		 */
-		ArrayList<String> students = new ArrayList<>();
-		HighestScore.forEach((student, score) -> students.add(student));
-		System.out.println("\nStudents: " +  students);
 		
 	}
 	
